@@ -1,0 +1,28 @@
+# Environment files may contain local settings or secrets.
+.env
+
+# Composer dependencies are restored with composer install.
+/vendor/
+
+# CodeIgniter runtime-generated files.
+/writable/cache/*
+!/writable/cache/index.html
+/writable/debugbar/*
+!/writable/debugbar/index.html
+/writable/logs/*
+!/writable/logs/index.html
+/writable/session/*
+!/writable/session/index.html
+/writable/uploads/*
+!/writable/uploads/index.html
+
+# Test output and local development files.
+/tests/coverage*
+/phpunit
+/phpunit.xml
+/.idea/
+/.vscode/
+*.log
+.DS_Store
+Thumbs.db
+Desktop.ini
